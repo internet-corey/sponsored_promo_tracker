@@ -6,7 +6,7 @@ def db_conn():
     conn = pyodbc.connect(
         '''
         Driver={ODBC Driver 17 for SQL Server};
-        Server=;
+        Server=.;
         Database=DMT;
         Trusted_Connection=yes;
         '''
